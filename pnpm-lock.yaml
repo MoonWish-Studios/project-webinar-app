@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@next/font': ^13.1.1
   '@supabase/auth-helpers-nextjs': ^0.5.5
+  '@supabase/auth-helpers-react': ^0.3.1
   '@supabase/auth-ui-react': ^0.3.3
   '@supabase/auth-ui-shared': ^0.1.2
   '@supabase/supabase-js': ^2.10.0
@@ -24,6 +25,7 @@ specifiers:
 dependencies:
   '@next/font': 13.1.1
   '@supabase/auth-helpers-nextjs': 0.5.5_ku2vntnma2imfrsyohnkxzette
+  '@supabase/auth-helpers-react': 0.3.1_ku2vntnma2imfrsyohnkxzette
   '@supabase/auth-ui-react': 0.3.3_ku2vntnma2imfrsyohnkxzette
   '@supabase/auth-ui-shared': 0.1.2_ku2vntnma2imfrsyohnkxzette
   '@supabase/supabase-js': 2.10.0
@@ -273,6 +275,14 @@ packages:
       '@supabase/supabase-js': ^2.0.4
     dependencies:
       '@supabase/auth-helpers-shared': 0.3.0_ku2vntnma2imfrsyohnkxzette
+      '@supabase/supabase-js': 2.10.0
+    dev: false
+
+  /@supabase/auth-helpers-react/0.3.1_ku2vntnma2imfrsyohnkxzette:
+    resolution: {integrity: sha512-g3SFv08Dz9FapNif/ZY1b7qKGlMJDyTLSayHBz3kb3FuYxg7aLWgQtydDhm5AGbc0XtvpIBuhGTIOVevwpdosA==}
+    peerDependencies:
+      '@supabase/supabase-js': ^2.0.4
+    dependencies:
       '@supabase/supabase-js': 2.10.0
     dev: false
 
